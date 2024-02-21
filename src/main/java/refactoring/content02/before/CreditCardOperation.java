@@ -1,15 +1,15 @@
 package refactoring.content02.before;
 
-public class CreditCardOperation implements Operation{
+public class CreditCardOperation implements Operation {
 
 	@Override
 	public String directReply() {
-		return null;
+		return "directReply";
 	}
 
 	@Override
 	public String postbackReply() {
-		return null;
+		return "postbackReply";
 	}
 
 	@Override

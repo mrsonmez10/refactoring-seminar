@@ -77,6 +77,6 @@ public class WelcomeMessage {
 	}
 
 	public String replaceName(String welcomeMessage, Customer customer) {
-		return welcomeMessage.replace("#NAME#",customer.getName());
+		return welcomeMessage.replace("#NAME#", customer.getName());
 	}
 }
