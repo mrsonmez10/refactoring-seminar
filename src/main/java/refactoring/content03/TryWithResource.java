@@ -19,7 +19,7 @@ public class TryWithResource {
 		catch (IOException e) {
 			// TODO: handle exception
 			return defaultVal;
-		} finally{
+		} finally {
 			br.close();
 		}
 	}
